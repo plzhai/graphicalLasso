@@ -10,5 +10,5 @@ if the (i,j) entry of the precision matrix C equals to 0 , that is <a href="http
 
 the goal of graphical lasso is to estimate sparse graph, which is often controlled by the inverse coveriance matrix or so-called precision matrix given adequate data and is superiorly fast.
 
-Edited by [plzhai](plzhai.github.io) in 2019/3/24
+Edited by [plzhai](https://plzhai.github.io) in 2019/3/24
 
