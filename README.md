@@ -15,8 +15,8 @@ A common question is often asked: What is the difference between Graph Laplacian
 
 ![Laplacian](/img/laplacian.png)![Precision](/img/precision.png)!
 <figure class="half">
-    <img src="/img/laplacian.png"  height="330" width="495">
-    <img src="/img/precision.png"  height="330" width="495">
+    <img src="/img/laplacian.png"  height="330" width="400">
+    <img src="/img/precision.png"  height="330" width="400">
 </figure>
 
 
