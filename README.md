@@ -1,5 +1,10 @@
 # Graphical Lasso
 This is a series of realizations of graphical lasso , which is an idea initially from [Sparse inverse covariance estimation with the graphical lasso](http://statweb.stanford.edu/~tibs/ftp/graph.pdf) by Jerome Friedman , Trevor Hastie , and Robert Tibshirani.
+Graphical Lasso maximizes likelihood of precision matrix:
+<div align ="center"><a href="https://www.codecogs.com/eqnedit.php?latex=|\Theta|^{M&space;/&space;2}&space;\exp&space;\left(-\sum_{m=1}^{M}&space;\frac{1}{2}&space;\mathbf{X}(m)^{T}&space;\Theta&space;\mathbf{X}(m)\right)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?|\Theta|^{M&space;/&space;2}&space;\exp&space;\left(-\sum_{m=1}^{M}&space;\frac{1}{2}&space;\mathbf{X}(m)^{T}&space;\Theta&space;\mathbf{X}(m)\right)" title="|\Theta|^{M / 2} \exp \left(-\sum_{m=1}^{M} \frac{1}{2} \mathbf{X}(m)^{T} \Theta \mathbf{X}(m)\right)" /></a></div>
+The objective can be formulated as,
+<div align="center"><a href="https://www.codecogs.com/eqnedit.php?latex=\max&space;_{\Theta}&space;\log&space;\operatorname{det}&space;\Theta-\operatorname{tr}(\mathbf{S}&space;\Theta)-\rho\|\Theta\|_{1}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\max&space;_{\Theta}&space;\log&space;\operatorname{det}&space;\Theta-\operatorname{tr}(\mathbf{S}&space;\Theta)-\rho\|\Theta\|_{1}" title="\max _{\Theta} \log \operatorname{det} \Theta-\operatorname{tr}(\mathbf{S} \Theta)-\rho\|\Theta\|_{1}" /></a></div>
+
 
 Before that, Estimation of Precision is based on neighborhood regression, which failed to consider overall information,
 <div align="center">
