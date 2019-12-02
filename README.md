@@ -9,6 +9,8 @@ if the (i,j) entry of the precision matrix C equals to 0 , that is <a href="http
 
 The goal of graphical lasso is to estimate sparse graph, which is often controlled by the inverse coveriance matrix or so-called precision matrix given adequate data and is superiorly fast.
 
+# Laplacian and Precision
+
 A common question is often asked: What is the difference between Graph Laplacian and Precission? The answer is that Laplacian are built on the kernel function and distance, which means that Laplaican considers local manifolds and there is an  positive edge if 2 points are close. However, Precision considers overall structures, which means significantly distant points are also considered in the graph. Say we have 20 points belonging 2 classes, and 10% edges are retained, the graphs are like that,
 
 ![Laplacian](/img/laplacian.png)![Precision](/img/precision.png)!
