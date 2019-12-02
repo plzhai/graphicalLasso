@@ -3,9 +3,7 @@ This is a series of realizations of graphical lasso , which is an idea initially
 
 Before that, Estimation of Precision is based on neighborhood regression, which failed to consider overall information,
 
-https://latex.codecogs.com/gif.latex?%5Cmin_%7B%5Cbeta_%7B1%7D%7D%7C%7CX_1-X_%7B%5Cbeta_%7B2%3Aend%7D%7D%7C%7C%5E%7B2%7D&plus;%5Clambda%7C%7C%5Cbeta_%7B1%7D%7C%7C_%7B1%7D
-
-
+<img src="https://latex.codecogs.com/gif.latex?\min_{\beta_{1}}||X_1-X_{\beta_{2:end}}||^{2}&plus;\lambda||\beta_{1}||_{1}" title="\min_{\beta_{1}}||X_1-X_{\beta_{2:end}}||^{2}+\lambda||\beta_{1}||_{1}" />
 
 the question is often formulated like this: Given N observations <a href="https://www.codecogs.com/eqnedit.php?latex=X_{i}(i&space;=&space;1,2,...,N)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?X_{i}(i&space;=&space;1,2,...,N)" title="X_{i}(i = 1,2,...,N)" /></a> , with dimension p , covariance <a href="https://www.codecogs.com/eqnedit.php?latex=\sum" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sum" title="\sum" /></a> , how to model the relationship of the p features ? or in more graphcial model terms , how to pin down the edges among the p vertices?
 
