@@ -11,7 +11,7 @@ Before that, Estimation of Precision is based on neighborhood regression, which 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\min_{\beta_{1}}||X_1-X_{\beta_{2:end}}||^{2}&plus;\lambda||\beta_{1}||_{1}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\min_{\beta_{1}}||X_1-X_{\beta_{2:end}}||^{2}&plus;\lambda||\beta_{1}||_{1}" title="\min_{\beta_{1}}||X_1-X_{\beta_{2:end}}||^{2}+\lambda||\beta_{1}||_{1}" /></a>
 </div>
  Here is a (partial) historical overview of sparse precision estimation.
- ![SPE](\img\precision_view.png)
+ ![SPE](/img/precision_view.png)
 
 the question is often formulated like this: Given N observations <a href="https://www.codecogs.com/eqnedit.php?latex=X_{i}(i&space;=&space;1,2,...,N)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?X_{i}(i&space;=&space;1,2,...,N)" title="X_{i}(i = 1,2,...,N)" /></a> , with dimension p , covariance <a href="https://www.codecogs.com/eqnedit.php?latex=\sum" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sum" title="\sum" /></a> , how to model the relationship of the p features ? or in more graphcial model terms , how to pin down the edges among the p vertices?
 
