@@ -2,7 +2,8 @@
 This is a series of realizations of graphical lasso , which is an idea initially from [Sparse inverse covariance estimation with the graphical lasso](http://statweb.stanford.edu/~tibs/ftp/graph.pdf) by Jerome Friedman , Trevor Hastie , and Robert Tibshirani.
 
 Before that, Estimation of Precision is based on neighborhood regression, which failed to consider overall information,
-<pre xml:lang="latex">\min_{\beta_{1}}||X_1-X_{\beta_{2:end}}||^{2}+\lambda||\beta_{1}||_{1}</pre>
+
+https://latex.codecogs.com/gif.latex?%5Cmin_%7B%5Cbeta_%7B1%7D%7D%7C%7CX_1-X_%7B%5Cbeta_%7B2%3Aend%7D%7D%7C%7C%5E%7B2%7D&plus;%5Clambda%7C%7C%5Cbeta_%7B1%7D%7C%7C_%7B1%7D
 
 
 
