@@ -12,7 +12,7 @@ Before that, Estimation of Precision is based on neighborhood regression, which 
 </div>
  Here is a (partial) historical overview of sparse precision estimation.
 <div align="center">
-    <img src="/img/precision_view.png">
+    <img src="/img/precision_view.PNG">
 </div>
 
 the question is often formulated like this: Given N observations <a href="https://www.codecogs.com/eqnedit.php?latex=X_{i}(i&space;=&space;1,2,...,N)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?X_{i}(i&space;=&space;1,2,...,N)" title="X_{i}(i = 1,2,...,N)" /></a> , with dimension p , covariance <a href="https://www.codecogs.com/eqnedit.php?latex=\sum" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sum" title="\sum" /></a> , how to model the relationship of the p features ? or in more graphcial model terms , how to pin down the edges among the p vertices?
